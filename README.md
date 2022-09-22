@@ -8,19 +8,17 @@ O objetivo desse projeto é entender como explorar essa vulnerabilidade e como p
 <br>
 
 
-### 💻 setup
 
-```php
-# O que é script-site scripting?
-$ É uma vulnerabilidade web que permite que o invasor comprometa as interações que os usuários têm com um sistema vulnerável.
-Basicamente é fazer que o código javascript seja executado do lado do navegador da vitima. As vulnerabilidades de script entre sites normalmente permite que um invasor se disfarce de usuário vítima, execute quaisquer ações que o usuário possa realizar e acesse qualquer um dos dados do usuário. 
+ O que é script-site scripting?
+ É uma vulnerabilidade web que permite que o invasor comprometa as interações que os usuários têm com um sistema vulnerável.
+ Basicamente é fazer que o código javascript seja executado do lado do navegador da vitima. As vulnerabilidades de script entre sites normalmente permite que um   invasor se disfarce de usuário vítima, execute quaisquer ações que o usuário possa realizar e acesse qualquer um dos dados do usuário. 
 
 # Como funciona o xss?
-$ O xss funciona manipulando o sistema vulneravel e fazendo que o código javascript seja executado no navegador da vitima, assim podendo comprometer a interação com o sistema.
+ O xss funciona manipulando o sistema vulneravel e fazendo que o código javascript seja executado no navegador da vitima, assim podendo comprometer a interação com o sistema.
 
 # Prova de conceito XSS
-$ Na maiorias das vezes você pode confirmar os tipos de vulnerabilidade XSS injetando algum código javascript no input fazendo que o seu prório navegador execute o código que você injetou. Há muito tempo é uma prática comum usar a função alert()para esse propósito, porque é curta e inofensiva.
-```
+ Na maiorias das vezes você pode confirmar os tipos de vulnerabilidade XSS injetando algum código javascript no input fazendo que o seu prório navegador execute o código que você injetou. Há muito tempo é uma prática comum usar a função alert()para esse propósito, porque é curta e inofensiva.
+
 
 <br>
 
