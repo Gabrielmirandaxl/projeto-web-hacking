@@ -19,6 +19,15 @@ O objetivo desse projeto é entender como explorar essa vulnerabilidade e como p
 # Prova de conceito XSS
  Na maiorias das vezes você pode confirmar os tipos de vulnerabilidade XSS injetando algum código javascript no input fazendo que o seu prório navegador execute o código que você injetou. Há muito tempo é uma prática comum usar a função alert()para esse propósito, porque é curta e inofensiva.
 
+# Quais são os tipos de ataques XSS?
+
+ Existem três tipos principais de ataques XSS. Estes são:
+
+* XSS refletido, em que o script malicioso vem da solicitação HTTP atual.
+
+* XSS armazenado, onde o script malicioso vem do banco de dados do site.
+
+* XSS baseado em DOM, onde a vulnerabilidade existe no código do lado do cliente em vez de no código do lado do servidor.
 
 <br>
 
