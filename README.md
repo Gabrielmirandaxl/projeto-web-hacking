@@ -7,6 +7,23 @@ O objetivo desse projeto é entender como explorar essa vulnerabilidade e como p
 
 <br>
 
+
+### 💻 setup
+
+```php
+# O que é script-site scripting?
+$ É uma vulnerabilidade web que permite que o invasor comprometa as interações que os usuários têm com um sistema vulnerável.
+Basicamente é fazer que o código javascript seja executado do lado do navegador da vitima.
+
+# acesse a pasta do projeto
+$ cd projeto-web-hacking
+
+# instale as dependências
+$ npm install
+```
+
+<br>
+
 > <b>Status code:</b>  finalizado!! ✔
 
  ## ℹ index
