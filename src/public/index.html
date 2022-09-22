@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>web hacking</title>
+</head>
+<body>
+  
+  <h1>Testando um xss persistente</h1>
+
+  <br>
+  <br>
+  <br>
+
+  <form action="http://localhost:3000/register-infor" method="post">
+       <textarea name="infor" id="infor" cols="30" rows="10"></textarea>
+       <button type="submit">Enviar informação</button>
+  </form>
+
+
+  <div>
+    <h2>Informações adiconadas</h2>
+
+    <div class="list">
+
+    </div>
+
+    <button onclick="consumirInfor()">Carregar as novas informações</button>
+  </div>
+
+  <script src="javascript.js"></script>
+</body>
+</html>
