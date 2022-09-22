@@ -18,6 +18,16 @@ O objetivo desse projeto é entender como explorar essa vulnerabilidade e como p
 
 # Prova de conceito XSS
  Na maiorias das vezes você pode confirmar os tipos de vulnerabilidade XSS injetando algum código javascript no input fazendo que o seu prório navegador execute o código que você injetou. Há muito tempo é uma prática comum usar a função alert()para esse propósito, porque é curta e inofensiva.
+ 
+ # Para que o XSS pode ser usado?
+ Um invasor que explora uma vulnerabilidade de script entre sites normalmente é capaz de:
+
+* Personificar ou se passar por usuário vítima;
+* Execute qualquer ação que o usuário seja capaz de realizar;
+* Leia quaisquer dados que o usuário possa acessar;
+* Capture as credenciais de login do usuário;
+* Realize a desfiguração virtual do site;
+* Injete a funcionalidade do trojan no site.
 
 # Quais são os tipos de ataques XSS?
 
@@ -30,6 +40,8 @@ O objetivo desse projeto é entender como explorar essa vulnerabilidade e como p
 * XSS baseado em DOM, onde a vulnerabilidade existe no código do lado do cliente em vez de no código do lado do servidor.
 
 <br>
+
+# Nesse exemplo vamos abordar o XSS armazenado
 
 > <b>Status code:</b>  finalizado!! ✔
 
