@@ -55,9 +55,12 @@ Para minimizar a vulnerabilidade de cross-site scripting, os desenvolvedores dev
 
 * Atualize seu site e software de servidor para evitar a exploração futura de vulnerabilidades que podem ser visadas por um ataque XSS.
 
-#Exemplo
+# Exemplo
 
-Nesse cenário que construir, vai ser um xss armazenado onde estarei explorando através de um textarea( um ponto de entrada) que irá enviar novas informações que vão está sendo guardadas no banco de dados, em seguida, estarei consumindo essas informações no front end.
+Nesse cenário que construir, vai ser um xss armazenado onde estarei explorando através de um textarea( um ponto de entrada) que irá enviar novas informações que vão está sendo guardadas no banco de dados, em seguida, estarei consumindo essas informações no front end. Com isso em mente... Estarei gravando a primeira parte do vídeo exporando essa vulnerabilidade sem filtrar as informações que chegam da requisição. Já na segunda vou está mostrando o que acontece quando a requisição filtra as informações e como são armazenadas no banco.
+
+# 🌐 Parte 1
+<img width="900" heigth="900"  src="">
 
 <br>
 
@@ -119,8 +122,7 @@ $ npm run start
 
 <br>
 
-## 🌐 aplicação
-<img width="900" heigth="900"  src="">
+
 
 <br>
 
