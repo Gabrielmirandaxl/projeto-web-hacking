@@ -19,15 +19,15 @@ O objetivo desse projeto é entender como explorar essa vulnerabilidade e como p
 # Prova de conceito XSS
  Na maiorias das vezes você pode confirmar os tipos de vulnerabilidade XSS injetando algum código javascript no input fazendo que o seu prório navegador execute o código que você injetou. Há muito tempo é uma prática comum usar a função alert()para esse propósito, porque é curta e inofensiva.
  
- # Para que o XSS pode ser usado?
- Um invasor que explora uma vulnerabilidade de script entre sites normalmente é capaz de:
+ # Impacto do XSS
+Ao explorar vulnerabilidades de XSS, um invasor pode executar ações maliciosas, como:
 
-* Personificar ou se passar por usuário vítima;
-* Execute qualquer ação que o usuário seja capaz de realizar;
-* Leia quaisquer dados que o usuário possa acessar;
-* Capture as credenciais de login do usuário;
-* Realize a desfiguração virtual do site;
-* Injete a funcionalidade do trojan no site.
+* Redirecionar usuários para um site malicioso.
+* Capturar as teclas digitadas pelos usuários.
+* Acessar o histórico do navegador dos usuários e o conteúdo da área de transferência.
+* Executar exploits baseados em navegador da Web (por exemplo, travar o navegador).
+* Obter as informações do cookie de um usuário que está logado em um site.
+* Roubar o token de sessão de login, permitindo que o invasor interaja com o aplicativo como a vítima sem saber sua senha
 
 # Quais são os tipos de ataques XSS?
 
@@ -42,6 +42,24 @@ O objetivo desse projeto é entender como explorar essa vulnerabilidade e como p
 <br>
 
 # Nesse exemplo vamos abordar o XSS armazenado
+
+<h2>O que é XSS armazenado/persistente?</h2>
+Esse tipo de XSS é prejudicial porque, quando a informação fornecida pelo usuário é armazenada no banco de dados, e em seguida, é consumida pelo front end, o invasor vai poder está mandando scripts ou tags para ser executado no navegador! Os pontos de entrada para ocorrer um XSS Armazenado incluem fóruns de mensagens, comentários em blogs, perfis de usuário e campos de nome de usuário. Um invasor explorararia normalmente essa vulnerablidade injetando scripts nos pontos de entrada  e enviaria a url para a vitima induzindo-a a visualizar a página que contém a carga de XSS armazenada. A vítima visita a página e o script é executado no lado do cliente pelo navegador da vítima.
+
+# Prevenção contra cross site scripting
+Para minimizar a vulnerabilidade de cross-site scripting, os desenvolvedores devem:
+
+* Garantir que qualquer página em seu site que aceite entrada do usuário filtre as entradas de código, como HTML e JavaScript.
+
+* Faça a varredura em busca de vulnerabilidades de aplicativos da Web e conserte-as de acordo.
+
+* Atualize seu site e software de servidor para evitar a exploração futura de vulnerabilidades que podem ser visadas por um ataque XSS.
+
+#Exemplo
+
+Nesse cenário que construir, vai ser um xss armazenado onde estarei explorando através de um textarea( um ponto de entrada) que irá enviar novas informações que vão está sendo guardadas no banco de dados, em seguida, estarei consumindo essas informações no front end.
+
+<br>
 
 > <b>Status code:</b>  finalizado!! ✔
 
@@ -62,9 +80,9 @@ O objetivo desse projeto é entender como explorar essa vulnerabilidade e como p
 
  Este projeto consiste em sistema de adicionar informações feito com `javascript`, `nodejs(express.js)` e `mongoDB`, onde faço as seguintes funcionalidades:
 
- * Interação com os métodos( GET e POST)
+ * Interação com os métodos( GET e POST);
  * Listagem de informações;
- * Criação de informações;
+ * Criação de informações.
  
 
 
