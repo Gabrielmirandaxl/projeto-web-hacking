@@ -62,6 +62,9 @@ Nesse cenário que construir, vai ser um xss armazenado onde estarei explorando 
 # 🌐 Parte 1
 <img width="900" heigth="900"  src="https://github.com/Gabrielmirandaxl/projeto-web-haking/blob/master/parte1.gif">
 
+Quando a requisição filtra não e armazena no bando de dados fica assim:
+<img width="800" heigth="800"  src="https://github.com/Gabrielmirandaxl/projeto-web-haking/blob/master/foto2.PNG">
+
 
 # 🌐 Parte 2
 <img width="900" heigth="900"  src="https://github.com/Gabrielmirandaxl/projeto-web-haking/blob/master/parte2.gif">
