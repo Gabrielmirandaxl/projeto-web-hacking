@@ -60,7 +60,15 @@ Para minimizar a vulnerabilidade de cross-site scripting, os desenvolvedores dev
 Nesse cenário que construir, vai ser um xss armazenado onde estarei explorando através de um textarea( um ponto de entrada) que irá enviar novas informações que vão está sendo guardadas no banco de dados, em seguida, estarei consumindo essas informações no front end. Com isso em mente... Estarei gravando a primeira parte do vídeo exporando essa vulnerabilidade sem filtrar as informações que chegam da requisição. Já na segunda vou está mostrando o que acontece quando a requisição filtra as informações e como são armazenadas no banco.
 
 # 🌐 Parte 1
-<img width="900" heigth="900"  src="">
+<img width="900" heigth="900"  src="https://github.com/Gabrielmirandaxl/projeto-web-haking/blob/master/parte1.gif">
+
+
+# 🌐 Parte 2
+<img width="900" heigth="900"  src="https://github.com/Gabrielmirandaxl/projeto-web-haking/blob/master/parte2.gif">
+
+Quando a requisição filtra e armazena no bando de dados fica assim:
+<br>
+<img width="800" heigth="800" src="https://github.com/Gabrielmirandaxl/projeto-web-haking/blob/master/foto1.PNG">
 
 <br>
 
